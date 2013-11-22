@@ -6,3 +6,4 @@ installing rspec
 change README.rdoc to README.md
 Add the first line: # {Name of app}
 remove public/index
+maybe add authentication

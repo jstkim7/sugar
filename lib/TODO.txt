@@ -1,0 +1,8 @@
+update gitignore
+update gemfile
+bundle install --without production
+bundle update
+installing rspec
+change README.rdoc to README.md
+Add the first line: # {Name of app}
+remove public/index

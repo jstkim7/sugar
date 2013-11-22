@@ -1,7 +1,7 @@
 module Sugar
   class NewApp
 
-    def initialize(app_name, app_location="..")
+    def initialize(app_name, app_location)
       @app_name = app_name
       @app_location = set_app_location(app_location)
     end
@@ -15,6 +15,10 @@ module Sugar
 
     def make_new_app()
       exec("rails new "+@app_location+@app_name+" --skip-test-unit")
+    end
+
+    def test
+      exec('pwd')
     end
   end
 end
